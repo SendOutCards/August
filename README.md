@@ -6,7 +6,7 @@ The Swift Client You Deserve
 You can build `August` using the [Swift Package Manager](https://github.com/apple/swift-package-manager). Just include `August` as a package in your dependencies:
 
 ```swift
-.package(url: "https://github.com/paulofaria/August.git", .upToNextMajor(from: "6.0.0")),
+.package(url: "https://github.com/SendOutCards/August.git", .upToNextMajor(from: "6.0.0")),
 ```
 
 Be sure to import the module at the top of your .swift files:
