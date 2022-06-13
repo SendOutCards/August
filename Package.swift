@@ -10,8 +10,8 @@ let package = Package(
         .library(name: "August", targets: ["August"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/paulofaria/ConvertibleArchiver.git", .upToNextMajor(from: "6.0.0")),
-        .package(url: "https://github.com/paulofaria/AssociatedValues.git", .upToNextMajor(from: "6.0.0")),
+        .package(url: "https://github.com/SendOutCards/ConvertibleArchiver.git", .upToNextMajor(from: "6.0.0")),
+        .package(url: "https://github.com/SendOutCards/AssociatedValues.git", .upToNextMajor(from: "6.0.0")),
     ],
     targets: [
         .target(name: "August", dependencies: ["ConvertibleArchiver", "AssociatedValues"]),
